@@ -43,18 +43,23 @@ div {
   padding-left: 10px;
   background: #E5E5E5;
   height: 40px;
-  border-bottom: 1px solid #C9C9C9; }
+  border-bottom: 1px solid #C9C9C9;
+  position: relative; }
   .belowItems
   div span:nth-child(1) {
     color: #A6A8B6;
-    font-size: 10px; }
+    font-size: 10px;
+    position: absolute;
+    bottom: 13px; }
   .belowItems
   div span:nth-child(2) {
     color: #797979;
     margin-left: 20px;
     font-weight: bold;
     vertical-align: middle;
-    margin-top: 4px; }
+    margin-top: 4px;
+    position: absolute;
+    bottom: 10px; }
   .belowItems
   div span:nth-child(3) {
     color: #797979;
@@ -64,6 +69,6 @@ div {
     text-align: right;
     float: right;
     margin-right: 10px;
-    margin-top: 4px; }
+    margin-top: 8px; }
 
 /*# sourceMappingURL=styles.css.map */
