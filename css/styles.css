@@ -1,0 +1,66 @@
+.wrapper {
+  border: 3px solid #444445;
+  font-family: Helvetica; }
+
+.heading {
+  border: 1px solid black;
+  background-color: #5E6065;
+  position: relative; }
+  .heading i {
+    color: #FFF;
+    float: left;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-right: 10px;
+    margin-left: 10px; }
+  .heading h4 {
+    color: #FFF;
+    width: 300px;
+    text-align: left;
+    font-size: 15px; }
+  .heading span {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 13px;
+    border: 1px solid #404247;
+    border-radius: 15px;
+    background: #404247;
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    padding: 2px 10px; }
+
+.heading:hover {
+  color: #3E5706; }
+
+.belowItems
+div {
+  border: 1px solid black;
+  text-align: left;
+  padding-left: 10px;
+  background: #E5E5E5;
+  height: 33px; }
+  .belowItems
+  div span:nth-child(1) {
+    color: #A6A8B6;
+    font-size: 10px; }
+  .belowItems
+  div span:nth-child(2) {
+    color: #797979;
+    margin-left: 20px;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-top: 4px; }
+  .belowItems
+  div span:nth-child(3) {
+    color: #797979;
+    border: 1px solid #C9C9C9;
+    padding: 1px 10px;
+    border-radius: 15px;
+    text-align: right;
+    float: right;
+    margin-right: 10px;
+    margin-top: 4px; }
+
+/*# sourceMappingURL=styles.css.map */
