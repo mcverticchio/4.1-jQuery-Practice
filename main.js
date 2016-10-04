@@ -8,15 +8,9 @@
 
     console.log(this);
 
-    // $('.myfiles').hide();
-    // $('.myclouds').hide();
-    // var myFiles = $(.myfiles)
 
 var hiddenItems = $('.belowitems');
 var titleItem = $('.heading');
-// var titleItem2 = $('.heading-2');
-// var titleItem3 = $('.heading-3');
-// var titleItem4 = $('.heading-4');
 
 
 titleItem.hover(function(){
@@ -26,24 +20,14 @@ titleItem.hover(function(){
   $(this).css("cursor", "pointer");
 });
 
-titleItem
-  .css("text-align", "center");
-
 
 titleItem.click(function(event){
   event.preventDefault();
-  $(this).next().slideToggle();
-  // hiddenItems.slideToggle("slow", function(){
+  $(this).next().slideToggle();                       //THIS REFERS TO "TITLEITEM", SO THE HEADER.
+  // hiddenItems.slideToggle("slow", function(){      //NEXT IS SAYING THE NEXT SIBLING WHICH IS MY "BELOWITEMS"
   //
   // });
 });
-
-hiddenItems
-  .css("text-align", "center");
-
-
-
-
 
   });
 }(jQuery));
