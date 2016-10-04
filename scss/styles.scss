@@ -7,8 +7,9 @@
 
 .heading {
   // linear-gradient(to top, #A5CA56, #6F921F)
-  border: 1px solid #717278;
+  border: 1px solid #4C4E52;
   background-color: #5E6065;
+  background: linear-gradient(#797A80, #4C4E52);
   position: relative;
   height: 40px;
   i {
@@ -49,7 +50,15 @@
 }
 
 .heading:hover {
-  color: #3E5706;
+  background: linear-gradient(#ACD05E, #6C901A);
+  transition: 1s;
+    h4 {
+      color: #3E5706;
+      font-weight: bold;
+    }
+    i {
+      color: #3E5706;
+    }
 }
 
 

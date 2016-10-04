@@ -14,9 +14,9 @@ var titleItem = $('.heading');
 
 
 titleItem.hover(function(){
-  $(this).css("background-color", "#8CB338");
-}, function(){
-  $(this).css("background-color", '#5E6065');
+  // $(this).css("background-color", "#8CB338");
+// }, function(){
+//   $(this).css("background-color", '#5E6065');
   $(this).css("cursor", "pointer");
 });
 
