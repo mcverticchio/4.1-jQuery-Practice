@@ -1,12 +1,15 @@
 .wrapper {
   border: 3px solid #444445;
   font-family: Helvetica;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .heading {
-  border: 1px solid black;
+  border: 1px solid #717278;
   background-color: #5E6065;
   position: relative;
+  height: 40px;
   i {
     // border: 1px solid green;
     color: #FFF;
@@ -49,24 +52,14 @@
 }
 
 
-// .dropBox,
-// .skyDrive,
-// .server,
-// .dropBox2,
-// .skyDrive2,
-// .connect,
-// .profiles,
-// .options,
-// .connect2,
-// .profiles2,
-// .options2
+
 .belowItems
   div{
-    border:1px solid black;
     text-align: left;
     padding-left:10px;
     background: #E5E5E5;
-    height: 33px;
+    height: 40px;
+    border-bottom: 1px solid #C9C9C9;
   span:nth-child(1){
       color: #A6A8B6;
       font-size: 10px;
@@ -90,11 +83,3 @@
       margin-top:4px;
       }
 };
-
-//
-// .belowItems {
-//   h4{
-//     color: #797979;
-//
-//   }
-// }

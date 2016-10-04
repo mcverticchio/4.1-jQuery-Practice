@@ -1,11 +1,14 @@
 .wrapper {
   border: 3px solid #444445;
-  font-family: Helvetica; }
+  font-family: Helvetica;
+  padding-left: 0px;
+  padding-right: 0px; }
 
 .heading {
-  border: 1px solid black;
+  border: 1px solid #717278;
   background-color: #5E6065;
-  position: relative; }
+  position: relative;
+  height: 40px; }
   .heading i {
     color: #FFF;
     float: left;
@@ -36,11 +39,11 @@
 
 .belowItems
 div {
-  border: 1px solid black;
   text-align: left;
   padding-left: 10px;
   background: #E5E5E5;
-  height: 33px; }
+  height: 40px;
+  border-bottom: 1px solid #C9C9C9; }
   .belowItems
   div span:nth-child(1) {
     color: #A6A8B6;
